@@ -1,0 +1,147 @@
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    color: #0350af;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+select,
+button[type="submit"] {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 100px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+#tabs ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#tabs ul li {
+    background-color: transparent;
+    border: transparent;
+}
+
+#tabs ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    width: fit-content;
+    color: #fff;
+}
+
+#tabs ul li a:active, #tabs ul li a:focus {
+    background-color: #0056b3;
+}
+
+#tabs div {
+    padding: 20px;
+}
+
+#add_sponsor form label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+#add_sponsor form input[type="text"],
+#add_sponsor form select {
+    width: 200px; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+#add_sponsor form button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+#switch_session form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#switch_session form input[type="time"],
+#switch_session form select {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#switch_session form button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#switch_session form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
